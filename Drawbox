@@ -1,0 +1,21 @@
+package loops;
+import java.util.Scanner;
+public class drawbox {
+
+	public static void main(String[] args) {
+		Scanner key = new Scanner (System.in);
+		System.out.println("Enter the length of the box");
+		int length = key.nextInt();
+		System.out.println("Enter the Width of the box");
+		int width = key.nextInt();
+		for(int i = 0; i<length;i++)
+		{
+			for(int j = 0; j<width; j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+}
